@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MTSensorKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MTSensorKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MTSensorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MTSensorKit: 7c84c2f8561743518a1803a898a84f9316cacc0a
+
+PODFILE CHECKSUM: 3d0e92ffaf60a052ca1321db4bd27ebe10081114
+
+COCOAPODS: 1.10.0
