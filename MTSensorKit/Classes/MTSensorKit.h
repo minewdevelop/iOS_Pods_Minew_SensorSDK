@@ -11,6 +11,7 @@
 #import <MTSensorKit/MTCentralManager.h>
 #import <MTSensorKit/MTConnectionHandler.h>
 #import <MTSensorKit/MTBroadcastHandler.h>
+#import <MTSensorKit/MTUtils.h>
 
 //! Project version number for MTSensorKit.
 FOUNDATION_EXPORT double MTSensorKitVersionNumber;
