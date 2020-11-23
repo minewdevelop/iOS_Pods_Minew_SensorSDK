@@ -17,6 +17,7 @@
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4F3810441605DA7FF96920BF4FC08DAD /* Pods-MTSensorKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4BA156E7F49524FB83C9513E3B5F52 /* Pods-MTSensorKit_Example-dummy.m */; };
 		6629580DCCD1F7FAB5DA3CBBC72E3C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		6A4B5DDD256BBD180098E1BD /* MTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4B5DDC256BBD180098E1BD /* MTUtils.h */; };
 		6ADA16022567EDD7004A70D6 /* MTSensorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15FD2567EDD6004A70D6 /* MTSensorKit.h */; };
 		6ADA16032567EDD7004A70D6 /* MTPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15FE2567EDD6004A70D6 /* MTPeripheral.h */; };
 		6ADA16042567EDD7004A70D6 /* MTBroadcastHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15FF2567EDD6004A70D6 /* MTBroadcastHandler.h */; };
@@ -98,6 +99,7 @@
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		661FD46CFAD7447E276070E047B40040 /* Pods-MTSensorKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTSensorKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		665A9FD8C8078272203B0986979B3DE0 /* MTSensorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSensorKit-umbrella.h"; sourceTree = "<group>"; };
+		6A4B5DDC256BBD180098E1BD /* MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTUtils.h; path = MTSensorKit/Classes/MTUtils.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6ADA15FD2567EDD6004A70D6 /* MTSensorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorKit.h; path = MTSensorKit/Classes/MTSensorKit.h; sourceTree = "<group>"; };
 		6ADA15FE2567EDD6004A70D6 /* MTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPeripheral.h; path = MTSensorKit/Classes/MTPeripheral.h; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		2D06BF5DC3DA295A7EE3941A26E4BD6B /* MTSensorKit */ = {
 			isa = PBXGroup;
 			children = (
+				6A4B5DDC256BBD180098E1BD /* MTUtils.h */,
 				6ADA15FF2567EDD6004A70D6 /* MTBroadcastHandler.h */,
 				6ADA16002567EDD6004A70D6 /* MTCentralManager.h */,
 				6ADA16012567EDD7004A70D6 /* MTConnectionHandler.h */,
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADA16052567EDD7004A70D6 /* MTCentralManager.h in Headers */,
+				6A4B5DDD256BBD180098E1BD /* MTUtils.h in Headers */,
 				6ADA16042567EDD7004A70D6 /* MTBroadcastHandler.h in Headers */,
 				6ADA16062567EDD7004A70D6 /* MTConnectionHandler.h in Headers */,
 				6ADA16032567EDD7004A70D6 /* MTPeripheral.h in Headers */,
