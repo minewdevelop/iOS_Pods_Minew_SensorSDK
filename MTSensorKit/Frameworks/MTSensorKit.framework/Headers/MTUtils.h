@@ -72,6 +72,20 @@ Get device HTSensor history.
 */
 + (NSData *)readHTHistory;
 
+/**
+Deal with device HTSensor history.Return a dictionary of all data, time, temperature, humidity
+ @param da the device temperature and humity history data.
+ @param formatter  the date formatter.
+ @param unitS the device temperature units.
+*/
++ (NSDictionary *)dealHTData:(NSData *)da formatter:(NSDateFormatter *)formatter Unit:(NSString *)unitS;
+
+/**
+Deal with device DoorSensor history.Return an array of data sorted according to time and all data
+ @param da the device doorHistoryData.
+ @param formatter the date formatter.
+*/
++ (NSArray *)dealDoorHistoryData:(NSData *)da formatter:(NSDateFormatter *)formatter;
 
 @end
 
